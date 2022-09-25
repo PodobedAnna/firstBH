@@ -2,4 +2,6 @@
 numb1=int(input('введите число: '))
 numb2=int(input('введите число: '))
 numb3=int(input('введите число: '))
-
+a=(numb1+numb2+numb3)/3
+a=round(a,3)
+print('среднее арифметическое равно:',a)
