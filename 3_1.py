@@ -5,5 +5,5 @@ print(sentence)
 # второй способ
 text=input('введите текст:')
 text2=text.split(' ')
-text3='-'.join(text2)
+text3: str='-'.join(text2)
 print(text3)
